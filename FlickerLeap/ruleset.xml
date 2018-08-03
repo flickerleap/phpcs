@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ruleset name="FlickerLeap">
+    <description>FlickerLeap php coding standard</description>
+
+    <rule ref="PSR2"/>
+</ruleset>
