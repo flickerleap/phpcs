@@ -4,7 +4,24 @@
 
     <rule ref="PSR2"/>
 
-    <rule ref="Squiz.Commenting.FunctionComment" />
     <rule ref="Squiz.Commenting.FunctionCommentThrowTag" />
     <rule ref="Squiz.Commenting.VariableComment" />
+    <rule ref="Generic.Files.LineEndings" />
+    <rule ref="Generic.Files.LineLength" />
+
+    <rule ref="Generic.Arrays.ArrayIndent" />
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
+
+    <rule ref="Generic.CodeAnalysis.AssignmentInCondition" />
+    <rule ref="Generic.CodeAnalysis.EmptyStatement" />
+
+    <rule ref="Generic.Commenting.DocComment" />
+    <rule ref="Generic.Commenting.FixMe" />
+    <rule ref="Generic.Commenting.Todo" />
+
+    <rule ref="Generic.NamingConventions.CamelCapsFunctionName"/>
+    <rule ref="Generic.NamingConventions.ConstructorName" />
+
+    <rule ref="Generic.WhiteSpace.ScopeIndent"/>
+    <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
 </ruleset>
