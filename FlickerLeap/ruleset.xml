@@ -3,4 +3,8 @@
     <description>FlickerLeap php coding standard</description>
 
     <rule ref="PSR2"/>
+
+    <rule ref="Squiz.Commenting.FunctionComment" />
+    <rule ref="Squiz.Commenting.FunctionCommentThrowTag" />
+    <rule ref="Squiz.Commenting.VariableComment" />
 </ruleset>
