@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ruleset name="Flickerleap/Laravel">
+    <description>FlickerLeap Laravel coding standard</description>
+
+    <rule ref="../ruleset.xml"/>
+</ruleset>
