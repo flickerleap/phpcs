@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="Flickerleap-laravel">
+<ruleset name="FlickerLeapLaravel">
     <description>FlickerLeap Laravel coding standard</description>
 
     <rule ref="../ruleset.xml"/>
