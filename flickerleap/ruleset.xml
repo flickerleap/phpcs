@@ -16,7 +16,6 @@
     <rule ref="Generic.CodeAnalysis.EmptyStatement" />
 
     <rule ref="Generic.Commenting.DocComment" />
-    <rule ref="Generic.Commenting.FixMe" />
     <rule ref="Generic.Commenting.Todo" />
 
     <rule ref="Generic.NamingConventions.CamelCapsFunctionName"/>
