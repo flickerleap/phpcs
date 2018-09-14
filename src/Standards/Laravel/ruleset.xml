@@ -2,5 +2,7 @@
 <ruleset name="FlickerLeapLaravel">
     <description>FlickerLeap Laravel coding standard</description>
 
-    <rule ref="../ruleset.xml"/>
+    <rule ref="Flickerleap"/>
+
+    <rule ref="Laravel.Convention.DisallowEnvUsage" />
 </ruleset>
