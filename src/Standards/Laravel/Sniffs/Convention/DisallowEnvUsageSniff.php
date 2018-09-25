@@ -12,6 +12,10 @@ class DisallowEnvUsageSniff implements Sniff
 
     public function process(File $phpcsFile, $stackPtr)
     {
+        if(array_slice(explode('/',$phpcsFile->path), -2, 1)[0] == 'config') {
+            return;
+        }
+
         $tokens = $phpcsFile->getTokens();
 
         if ($tokens[$stackPtr]['content'] === 'env') {

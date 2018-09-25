@@ -4,7 +4,5 @@
 
     <rule ref="Flickerleap"/>
 
-    <rule ref="Laravel.Convention.DisallowEnvUsage">
-        <exclude-pattern>*/config/*</exclude-pattern>
-    </rule>
+    <rule ref="Laravel.Convention.DisallowEnvUsage"/>
 </ruleset>
