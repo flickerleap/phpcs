@@ -22,6 +22,8 @@ $ ~/.composer/vendor/bin/flickerleap/phpcs --standard=flickerleap --extensions=p
 
 Effort has been made to follow Laravel convention as closely as possible.
 
+### flickerleap standard
+
 - All PSR2 rules
 - Require function docblocks
 - Require line endings and lenght of 120
@@ -31,3 +33,10 @@ Effort has been made to follow Laravel convention as closely as possible.
 - Dissallow fix me and todos
 - Force camel case variable names
 - Force indentation
+
+### laravel standard
+
+This standard extends the `flickerleap` standard and includes additional sniffs specific to the framework
+
+- All flickerleap rules
+- Disallow `env()` function usage outside of the config folder
