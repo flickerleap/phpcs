@@ -24,4 +24,12 @@
 
     <rule ref="Generic.WhiteSpace.ScopeIndent"/>
     <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
+    
+    <rule ref="Generic.PHP.ForbiddenFunctions">
+        <properties>
+            <property name="forbiddenFunctions" type="array">
+                <element key="var_dump" value="null"/>
+            </property>
+        </properties>
+    </rule>
 </ruleset>
