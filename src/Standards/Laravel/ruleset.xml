@@ -5,4 +5,12 @@
     <rule ref="Flickerleap"/>
 
     <rule ref="Laravel.Convention.DisallowEnvUsage"/>
+    <rule ref="Generic.PHP.ForbiddenFunctions">
+        <properties>
+            <property name="forbiddenFunctions" type="array">
+                <element key="dump" value="null"/>
+                <element key="dd" value="null"/>
+            </property>
+        </properties>
+    </rule>
 </ruleset>
