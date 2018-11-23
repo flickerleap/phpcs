@@ -6,9 +6,7 @@ This project contains rulesets to be used with phpcs https://github.com/squizlab
 
 ```bash
 $ composer global require squizlabs/php_codesniffer flickerleap/phpcs
-```
 
-```bash
 $ ~/.composer/vendor/bin/phpcs --config-set installed_paths ~/.composer/vendor/flickerleap/phpcs/src/Standards
 ```
 
