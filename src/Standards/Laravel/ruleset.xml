@@ -3,13 +3,14 @@
     <description>FlickerLeap Laravel coding standard</description>
 
     <rule ref="Flickerleap"/>
-    
+
+    <rule ref="Laravel.Convention.DisallowEnvUsage"/>
+
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
             <property name="forbiddenFunctions" type="array">
                 <element key="dump" value="null"/>
                 <element key="dd" value="null"/>
-                <element key="env" value="config"/>
             </property>
         </properties>
     </rule>
